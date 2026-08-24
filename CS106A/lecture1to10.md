@@ -222,4 +222,56 @@ class Dog:
 1. While Loop
 2. For Loop
 
-## Casting In Python
+
+
+## Casting
+Implicit - Happens from smaller to larger
+Explicit - Happens between incompatible types , smaller to larger etc
+
+## Classes
+
+**Client** - user of the class
+**Implementor** - Coder
+
+
+## Scope of variables
+**Local Variable** Lives inside a class
+**Instance Variable** Lives inside a class not method. Visible to objects. 
+- instance var Lifetime = object lifetime
+- Stores the state of the object
+- **accessible by objects only**
+
+**Class variables**
+- variables that are static
+- can be called using Class Name directly
+
+
+# How does a random number gets generated?
+
+It uses a deterministic algorithm to generate numbers of a certain sequence that may appear random. 
+**Practice.ipynb** - Pseudorandom number generator
+
+see prng.ipynb for more info
+
+
+# Classes 
+- Constructor shares same name as of its class
+- Donot specify return type
+- initializes objects
+- called when an object is created 
+
+
+## getters 
+we use @property in python to access a private variable.
+
+## setters 
+use @name.setter id name is the variable in this case
+
+
+## Override
+one same name method in child overrides the other when called. USer **super()** in python
+
+# Interface
+- Define Set of methods 
+- To ensure a set of classes that also mandatorily maintain the set of methods
+
